@@ -4,7 +4,6 @@ $(document).ready(function()
 	$("#alertError").hide();
 });
 
-/*
 //SAVE ============================================
 $(document).on("click", "#btnSave", function(event) {
 	// Clear alerts---------------------
@@ -25,7 +24,7 @@ $(document).on("click", "#btnSave", function(event) {
 	var type = ($("#hidUnitIDSave").val() == "") ? "POST" : "PUT";
 
 	$.ajax({
-		url : "UnitsAPI",
+		url : "UNITSAPI",
 		type : type,
 		data : $("#formUnit").serialize(),
 		dataType : "text",
@@ -35,7 +34,7 @@ $(document).on("click", "#btnSave", function(event) {
 	});
 });
 
-function onUnitSaveComplete(response, status) {
+function onProjectSaveComplete(response, status) {
 	if (status == "success") {
 		var resultSet = JSON.parse(response);
 
@@ -43,7 +42,7 @@ function onUnitSaveComplete(response, status) {
 			$("#alertSuccess").text("Successfully saved.");
 			$("#alertSuccess").show();
 
-			$("#divUnitGrid").html(resultSet.data);
+			$("#divProjectGrid").html(resultSet.data);
 		} else if (resultSet.status.trim() == "error") {
 			$("#alertError").text(resultSet.data);
 			$("#alertError").show();
@@ -57,11 +56,10 @@ function onUnitSaveComplete(response, status) {
 		$("#alertError").show();
 	}
 
-	$("#hidUnitIDSave").val("");
-	$("#formUnit")[0].reset();
+	$("#hidProjectIDSave").val("");
+	$("#formProduct")[0].reset();
 }
-*/
-
+/*
 //SAVE ============================================
 $(document).on("click", "#btnSave", function(event)
 {
@@ -98,9 +96,9 @@ $(document).on("click", "#btnSave", function(event)
 	 }); 
 });
 
+*/
 
-
-
+/*
 function onUnitSaveComplete(response, status)
 {
 	if (status == "success")
@@ -130,7 +128,7 @@ function onUnitSaveComplete(response, status)
 	 $("#formUnits")[0].reset();
 }
 
-
+*/
 //UPDATE==========================================
 $(document).on("click", ".btnUpdate", function(event)
 {

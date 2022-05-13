@@ -4,7 +4,6 @@ $(document).ready(function()
 	$("#alertError").hide();
 });
 
-/*
 //SAVE ============================================
 $(document).on("click", "#btnSave", function(event) {
 	// Clear alerts---------------------
@@ -60,8 +59,7 @@ function onUnitSaveComplete(response, status) {
 	$("#hidUnitIDSave").val("");
 	$("#formUnit")[0].reset();
 }
-*/
-
+/*
 //SAVE ============================================
 $(document).on("click", "#btnSave", function(event)
 {
@@ -98,9 +96,9 @@ $(document).on("click", "#btnSave", function(event)
 	 }); 
 });
 
+*/
 
-
-
+/*
 function onUnitSaveComplete(response, status)
 {
 	if (status == "success")
@@ -130,7 +128,7 @@ function onUnitSaveComplete(response, status)
 	 $("#formUnits")[0].reset();
 }
 
-
+*/
 //UPDATE==========================================
 $(document).on("click", ".btnUpdate", function(event)
 {
