@@ -113,7 +113,7 @@ $(document).on("click", ".btnRemove", function(event)
 		 {
 			 url : "UnitsAPI",
 			 type : "DELETE",
-			 data : "unitID=" + $(this).data("unitid"),
+			 data : "UnitID=" + $(this).data("unitID"),
 			 dataType : "text",
 			 complete : function(response, status)
 			 {

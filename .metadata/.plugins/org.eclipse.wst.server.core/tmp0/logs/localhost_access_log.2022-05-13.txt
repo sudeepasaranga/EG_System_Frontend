@@ -82,3 +82,14 @@
 0:0:0:0:0:0:0:1 - - [13/May/2022:23:25:31 +0530] "GET /EG_System/Views/units.css HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [13/May/2022:23:25:31 +0530] "GET /EG_System/Components/jquery-3.2.1.js HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [13/May/2022:23:25:31 +0530] "GET /EG_System/Components/Unit.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2022:23:29:10 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/May/2022:23:29:11 +0530] "GET /EG_System/Unit.jsp HTTP/1.1" 200 4424
+0:0:0:0:0:0:0:1 - - [13/May/2022:23:29:14 +0530] "DELETE /EG_System/UnitsAPI HTTP/1.1" 500 1073
+0:0:0:0:0:0:0:1 - - [13/May/2022:23:29:19 +0530] "DELETE /EG_System/UnitsAPI HTTP/1.1" 500 1073
+0:0:0:0:0:0:0:1 - - [13/May/2022:23:31:31 +0530] "GET /EG_System/Unit.jsp HTTP/1.1" 200 4424
+0:0:0:0:0:0:0:1 - - [13/May/2022:23:31:31 +0530] "GET /EG_System/Views/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/May/2022:23:31:31 +0530] "GET /EG_System/Views/units.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/May/2022:23:31:31 +0530] "GET /EG_System/Components/jquery-3.2.1.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/May/2022:23:31:31 +0530] "GET /EG_System/Components/Unit.js HTTP/1.1" 200 3707
+0:0:0:0:0:0:0:1 - - [13/May/2022:23:31:33 +0530] "DELETE /EG_System/UnitsAPI HTTP/1.1" 200 60
+0:0:0:0:0:0:0:1 - - [13/May/2022:23:31:47 +0530] "POST /EG_System/UnitsAPI HTTP/1.1" 200 3386
