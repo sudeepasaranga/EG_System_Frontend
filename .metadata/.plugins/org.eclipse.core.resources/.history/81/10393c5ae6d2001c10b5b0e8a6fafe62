@@ -101,8 +101,8 @@ public class Unit {
 				output += "<td>" + price  + "</td>";
 	
 				//buttons
-				 output += "<td><input name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-success' data-unitID='" + unitID + "'></td>"
-						 + "<td><input name='btnRemove' type='button' value='Remove' class='btnRemove btn btn-danger' data-unitID='" + unitID + "'></td></tr>";
+				 output += "<td><input name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-success' data-unitid='" + unitID + "'></td>"
+						 + "<td><input name='btnRemove' type='button' value='Remove' class='btnRemove btn btn-danger' data-unitid='" + unitID + "'></td></tr>";
 				
 			}
 			
