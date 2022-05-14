@@ -21,7 +21,7 @@
  <div class="row">
  <div class="col-6">
 
-<h1><b>Complain Management</b></h1>
+<h1>Complain Management</h1>
 <form id="formComplains" name="formComplains" method="post" enctype="multipart/form-data">
     Customer Name:
 	<input id="perName" name="perName" type="text" class="form-control form-control-sm">

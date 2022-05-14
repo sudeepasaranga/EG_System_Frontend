@@ -11,7 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.Part;
+
 
 /**
  * Servlet implementation class UnitsAPI
@@ -51,7 +51,7 @@ public class ComplainsAPI extends HttpServlet {
 		String cPhone = request.getParameter("cPhone");
 		String comp = request.getParameter("comp");
 		
-		String output = complain.addComplain(perName, cAccNo, cArea, cPhone,comp);
+		String output = complain.addComplain(perName, cAccNo, cArea, cPhone, comp);
 		response.getWriter().write(output);
 	}
 

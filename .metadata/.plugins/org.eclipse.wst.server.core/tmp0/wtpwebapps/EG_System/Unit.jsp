@@ -21,7 +21,7 @@
  <div class="row">
  <div class="col-6">
 
-<h1>Unit Management</h1>
+<h1><b>Unit Management</b></h1>
 <form id="formUnits" name="formUnits" method="post" enctype="multipart/form-data">
     Min Unit Value:
 	<input id="mnValue" name="mnValue" type="text" class="form-control form-control-sm">

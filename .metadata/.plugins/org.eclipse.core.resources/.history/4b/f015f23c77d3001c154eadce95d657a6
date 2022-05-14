@@ -144,7 +144,7 @@ $(document).on("click", ".btnUpdate", function(event)
 });
 
 //client-model
-function validateComplainForm()
+function validateUnitForm()
 {
 	// Customer Name
 	if ($("#perName").val().trim() == "")

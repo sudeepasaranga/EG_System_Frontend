@@ -92,7 +92,7 @@ $(document).on("click", "#btnSave", function(event)
 		 enctype : "multipart/form-data",
 		 complete : function(response, status)
 		 {
-			 onUnitSaveComplete(response.responseText, status);
+			 onComplainSaveComplete(response.responseText, status);
 		 },
 		 processData : false,
 		 contentType :false
@@ -102,7 +102,7 @@ $(document).on("click", "#btnSave", function(event)
 
 
 
-function onUnitSaveComplete(response, status)
+function onComplainSaveComplete(response, status)
 {
 	if (status == "success")
 	 {
@@ -144,7 +144,7 @@ $(document).on("click", ".btnUpdate", function(event)
 });
 
 //client-model
-function validateUnitForm()
+function validateComplainForm()
 {
 	// Customer Name
 	if ($("#perName").val().trim() == "")

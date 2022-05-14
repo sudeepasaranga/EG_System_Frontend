@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Unit Service</title>
+<title>Complain Service Service</title>
 <link rel="stylesheet" href="Views/bootstrap.min.css">
 <link rel="stylesheet" href="Views/complains.css">
 <script src="Components/jquery-3.2.1.js"></script>
@@ -21,7 +21,7 @@
  <div class="row">
  <div class="col-6">
 
-<h1>Complain Management</h1>
+<h1><b>Complain Management</b></h1>
 <form id="formComplains" name="formComplains" method="post" enctype="multipart/form-data">
     Customer Name:
 	<input id="perName" name="perName" type="text" class="form-control form-control-sm">
