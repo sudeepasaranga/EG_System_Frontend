@@ -15,6 +15,7 @@ import javax.servlet.http.Part;
 
 
 public class Payment {
+	//create database connection
 	private Connection connect() {
 		Connection con = null;
 		try {
@@ -31,6 +32,7 @@ public class Payment {
 		}
 		return con;
 	}
+	
 	//inserting data
 	public String insertPayment(String dateOfpay, String payMethod, String cardHolder, String cardNo, String cvv, String expDate, String totamount) {
 		String output = "";
@@ -94,15 +96,17 @@ public class Payment {
 					+ "<th>Update</th>"
 					+ "<th>Delete</th>"
 					+ "</tr>";
-
+			
+                        //query for select all payments 
 			String query = "select * from payment";
+			
 			Statement stmt = con.createStatement();
 			ResultSet rs = stmt.executeQuery(query);
 			
 			
 			// iterate through the rows in the result set
 			while (rs.next()) {
-			String paymentId = Integer.toString(rs.getInt("paymentId"));
+			        String paymentId = Integer.toString(rs.getInt("paymentId"));
 				String dateOfpay = rs.getString("dateOfPay");
 				String payMethod = rs.getString("payMethod");
 				String cardHolder = rs.getString("cardHolder");
@@ -112,8 +116,7 @@ public class Payment {
 				String totamount = Double.toString(rs.getDouble("totamount"));
 				
 				// Add into the html table
-			output += "<tr>";
-		
+			        output += "<tr>";
 				output += "<td>" + dateOfpay + "</td>";
 				output += "<td>" + payMethod + "</td>";
 				output += "<td>" + cardHolder + "</td>";
@@ -122,23 +125,24 @@ public class Payment {
 				output += "<td>" + expDate + "</td>";
 				output += "<td>" + totamount + "</td>";
 				
-				 //action buttons
+				 //action buttons for update and delete
 			output += "<td><input name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-success' data-paymentid='" + paymentId + "'></td>"	
 				
 				 + "<td><input name='btnRemove' type='button' value='Remove' class='btnRemove btn btn-danger' data-paymentid='" + paymentId + "'></td></tr>";
 			}
 			con.close();
+			
 			// Complete the html table
 			output += "</table>";
 			
 		} catch (Exception e) {
-			output = "Error while reading the payment...";
+			output = "Error while reading the payment...!";
 			System.err.println(e.getMessage());
 		}
 		return output;	
 	}
 		
-	//updating payments
+	//update payment using id
 	public String updatePayment(int paymentId, String dateOfpay, String payMethod, String cardHolder, String cardNo, String cvv, String expDate, String totamount){
 		String output = "";
 	    try {
@@ -148,9 +152,11 @@ public class Payment {
 			}
 			
 			// create a prepared statement
+		        //query for updating data
 			String query = "UPDATE payment SET dateOfpay=?,payMethod=?,cardHolder=?,cardNo=?,cvv=?, expDate=?, totamount=? WHERE paymentId=?";
 			
 			PreparedStatement preparedStmt = con.prepareStatement(query);
+		    
 			// binding values
 			preparedStmt.setString(1, dateOfpay);
 			preparedStmt.setString(2, payMethod);
@@ -168,14 +174,14 @@ public class Payment {
 			 con.close();
 			 String payment = readPayment();
 			 output = "{\"status\":\"success\", \"data\": \"" + payment + "\"}";
-		} catch (Exception e) {
+		        } catch (Exception e) {
 			 output = "{\"status\":\"error\", \"data\": \"Error while updating the payment.\"}"; 
 			 System.err.println(e.getMessage());
-		}
+		   }
 		return output;
 	}
 	
-	//delete payment
+	//delete payment using payment id
 	public String deletePayment(int paymentId) { 
 	    String output = ""; 
 	    try { 
@@ -231,10 +237,13 @@ public class Payment {
 					+ "<th>Total Amount</th>" 
 					+ "<th>Action</th>"
 					+ "</tr>";
-
+			 
+                //query for select latest payment detail
 		 String query = "select * from payment where PaymentId= (Select max(PaymentId) from payment)";
+			 
 		 Statement stmt = con.createStatement();
 		 ResultSet rs = stmt.executeQuery(query);
+			 
 		 // iterate through the rows in the result set
 		 while (rs.next())
 		 {
@@ -256,9 +265,9 @@ public class Payment {
 				output += "<td>" + cardNo + "</td>";
 				output += "<td>" + cvv + "</td>";
 				output += "<td>" + expDate + "</td>";
-				//output += "<td>" + email + "</td>";
 				output += "<td>" + totamount + "</td>";
-		 // buttons
+			 
+		 // action buttons
 				output += "<td>" + "<input name='btnUpdate' type='button' value='Update' class='btn btn-secondary'>"
 						+ " <input name='btnRemove' type='submit' value='Remove' class='btn btn-danger'>" + "</td></tr>"
 					
