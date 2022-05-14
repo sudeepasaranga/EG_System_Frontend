@@ -15,13 +15,13 @@
 <script src="Components/Unit.js"></script>
 
 </head>
-<body>
+<body style="background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20210326/pngtree-light-blue-cute-striped-baby-blue-background-image_594858.jpg)">
 
  <div class="container">
  <div class="row">
  <div class="col-6">
 
-<h1>Unit Management</h1>
+<h1><b>Unit Management</b></h1>
 <form id="formUnits" name="formUnits" method="post" enctype="multipart/form-data">
     Min Unit Value:
 	<input id="mnValue" name="mnValue" type="text" class="form-control form-control-sm">

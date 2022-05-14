@@ -71,7 +71,7 @@ public class Unit {
 				return "Error while connecting to the database";
 			}
 			
-			output = "<table border='1' class='table table-bordered'>"
+			output = "<table border='2' class='table table-bordered'>"
 					+ "<tr>"
 					+ "<th>Min Value</th>"
 					+ "<th>Max Value</th>"
