@@ -1161,3 +1161,123 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-c
 2022-05-14 14:10:23,498 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-05-14 14:10:23,499 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
 2022-05-14 14:10:23,499 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:10:23,500 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 14:24:21,848 [Worker-124: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:24:21,849 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 14:24:21,850 [Worker-124: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:24:21,850 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 14:48:39,629 [Worker-127: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:48:39,630 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 14:48:39,630 [Worker-127: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:48:39,631 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 14:50:38,854 [Worker-127: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:50:38,856 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 14:50:38,857 [Worker-127: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:50:38,857 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 14:51:19,380 [Worker-127: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:51:19,381 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 14:51:19,381 [Worker-127: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:51:19,382 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 14:53:23,707 [Worker-135: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:53:23,707 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 14:53:23,708 [Worker-135: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:53:23,709 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 14:54:14,680 [Worker-136: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:54:14,681 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 14:54:14,682 [Worker-136: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:54:14,682 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 14:57:03,065 [Worker-138: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:57:03,066 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 14:57:03,066 [Worker-138: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:57:03,067 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 14:57:42,718 [Worker-137: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:57:42,719 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 14:57:42,719 [Worker-137: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:57:42,720 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 14:58:39,813 [Worker-139: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:58:39,813 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 14:58:39,814 [Worker-139: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:58:39,814 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 14:59:36,691 [Worker-136: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:59:36,692 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 14:59:36,693 [Worker-136: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:59:36,694 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 14:59:47,775 [Worker-136: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:59:47,775 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 14:59:47,776 [Worker-136: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 14:59:47,776 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:00:15,134 [Worker-136: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:00:15,134 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:00:15,135 [Worker-136: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:00:15,135 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:00:32,953 [Worker-140: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:00:32,954 [Worker-140: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:00:32,954 [Worker-140: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:00:32,954 [Worker-140: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:00:53,688 [Worker-137: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:00:53,689 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:00:53,690 [Worker-137: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:00:53,691 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:07:12,287 [Worker-139: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:07:12,288 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:07:12,288 [Worker-139: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:07:12,288 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:16:52,760 [Worker-139: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:16:52,760 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:16:52,761 [Worker-139: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:16:52,761 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:18:16,661 [Worker-138: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:18:16,662 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:18:16,662 [Worker-138: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:18:16,662 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:18:40,780 [Worker-142: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:18:40,781 [Worker-142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:18:40,782 [Worker-142: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:18:40,782 [Worker-142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:18:51,943 [Worker-139: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:18:51,943 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:18:51,944 [Worker-139: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:18:51,944 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:32:34,996 [Worker-139: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:32:34,997 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:32:34,998 [Worker-139: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:32:34,998 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:40:55,684 [Worker-147: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:40:55,684 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:40:55,685 [Worker-147: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:40:55,685 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:41:14,412 [Worker-145: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:41:14,412 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:41:14,413 [Worker-145: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:41:14,413 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:41:25,114 [Worker-137: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:41:25,114 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:41:25,115 [Worker-137: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:41:25,115 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:46:17,614 [Worker-149: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:46:17,614 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:46:17,615 [Worker-149: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:46:17,615 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:47:45,975 [Worker-149: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:47:45,975 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:47:45,976 [Worker-149: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:47:45,976 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:48:11,236 [Worker-151: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:48:11,237 [Worker-151: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:48:11,237 [Worker-151: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:48:11,238 [Worker-151: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:48:46,842 [Worker-152: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:48:46,843 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:48:46,843 [Worker-152: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:48:46,843 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:51:20,565 [Worker-148: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-14 15:51:20,860 [Worker-148: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.EG_System:EG_System:0.0.1-SNAPSHOT @ C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\pom.xml.
+2022-05-14 15:51:21,306 [Worker-148: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EG_System/src
+2022-05-14 15:51:21,307 [Worker-148: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /EG_System/src/test/java because it overlaps with /EG_System/src
+2022-05-14 15:51:21,608 [Worker-148: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for EG_System
+2022-05-14 15:51:21,611 [Worker-148: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-05-14 15:51:21,881 [Worker-153: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:51:21,882 [Worker-153: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\main\resources
+2022-05-14 15:51:21,883 [Worker-153: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-14 15:51:21,883 [Worker-153: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Sudeepa Saranga\Desktop\PAF\EG_System\src\test\resources
+2022-05-14 15:51:21,884 [Worker-153: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of EG_System
