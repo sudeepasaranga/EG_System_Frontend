@@ -15,7 +15,7 @@
 <script src="Components/Unit.js"></script>
 
 </head>
-<body>
+<body style="background-image:url(https://htmlcolorcodes.com/assets/images/colors/electric-blue-color-solid-background-1920x1080.png)">
 
  <div class="container">
  <div class="row">

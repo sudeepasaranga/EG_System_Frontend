@@ -23,7 +23,7 @@
     right: 0;
     height: 56px;
     content: "";
-    background-image: url(https://www.androidauthority.com/wp-content/uploads/2015/11/00-best-backgrounds-and-wallpaper-apps-for-android.jpg);
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
     display: block;
     margin: 0 auto;
     background-size: 100%;
