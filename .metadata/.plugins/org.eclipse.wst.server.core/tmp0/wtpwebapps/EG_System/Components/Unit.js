@@ -23,11 +23,12 @@ $(document).on("click", "#btnSave", function(event) {
 
 	// If valid------------------------
 	var type = ($("#hidUnitIDSave").val() == "") ? "POST" : "PUT";
-
+	var formData = new FormData($("#formUnits")[0]);
+	console.log(formData);
 	$.ajax({
 		url : "UnitsAPI",
 		type : type,
-		data : $("#formUnit").serialize(),
+		data :formData,
 		dataType : "text",
 		complete : function(response, status) {
 			onUnitSaveComplete(response.responseText, status);
@@ -43,7 +44,7 @@ function onUnitSaveComplete(response, status) {
 			$("#alertSuccess").text("Successfully saved.");
 			$("#alertSuccess").show();
 
-			$("#divUnitGrid").html(resultSet.data);
+			$("#divUnitsGrid").html(resultSet.data);
 		} else if (resultSet.status.trim() == "error") {
 			$("#alertError").text(resultSet.data);
 			$("#alertError").show();
@@ -58,10 +59,10 @@ function onUnitSaveComplete(response, status) {
 	}
 
 	$("#hidUnitIDSave").val("");
-	$("#formUnit")[0].reset();
+	$("#formUnits")[0].reset();
 }
-*/
 
+*/
 //SAVE ============================================
 $(document).on("click", "#btnSave", function(event)
 {
@@ -134,7 +135,7 @@ function onUnitSaveComplete(response, status)
 //UPDATE==========================================
 $(document).on("click", ".btnUpdate", function(event)
 {
-	 $("#hidUnitIDSave").val($(this).closest("tr").find('#hidUnitIDUpdate').val());
+	 $("#hidUnitIDSave").val($(this).data("unitid")); 
 	 $("#mnValue").val($(this).closest("tr").find('td:eq(0)').text());
 	 $("#mxValue").val($(this).closest("tr").find('td:eq(1)').text());
 	 $("#modifiedDate").val($(this).closest("tr").find("td:eq(2)").text());
