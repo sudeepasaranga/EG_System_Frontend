@@ -1050,3 +1050,14 @@
 0:0:0:0:0:0:0:1 - - [14/May/2022:16:40:12 +0530] "GET /EG_System/Views/complains.css HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [14/May/2022:16:40:12 +0530] "GET /EG_System/Components/jquery-3.2.1.js HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [14/May/2022:16:40:12 +0530] "GET /EG_System/Components/Complain.js HTTP/1.1" 304 -
+127.0.0.1 - - [14/May/2022:16:40:42 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [14/May/2022:16:40:43 +0530] "GET /EG_System/Complain.jsp HTTP/1.1" 200 1773
+0:0:0:0:0:0:0:1 - - [14/May/2022:16:44:47 +0530] "GET /EG_System/Complain.jsp HTTP/1.1" 200 1773
+0:0:0:0:0:0:0:1 - - [14/May/2022:16:44:47 +0530] "GET /EG_System/Components/Complain.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/May/2022:16:46:08 +0530] "GET /EG_System/Complain.jsp HTTP/1.1" 200 1773
+0:0:0:0:0:0:0:1 - - [14/May/2022:16:46:08 +0530] "GET /EG_System/Views/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/May/2022:16:46:08 +0530] "GET /EG_System/Views/complains.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/May/2022:16:46:08 +0530] "GET /EG_System/Components/jquery-3.2.1.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/May/2022:16:46:08 +0530] "GET /EG_System/Components/Complain.js HTTP/1.1" 200 5525
+0:0:0:0:0:0:0:1 - - [14/May/2022:16:46:28 +0530] "POST /EG_System/ComplainsAPI HTTP/1.1" 200 515
+0:0:0:0:0:0:0:1 - - [14/May/2022:16:46:42 +0530] "PUT /EG_System/ComplainsAPI HTTP/1.1" 200 64

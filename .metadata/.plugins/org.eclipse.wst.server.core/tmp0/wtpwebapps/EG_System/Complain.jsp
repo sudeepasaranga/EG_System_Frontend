@@ -15,7 +15,7 @@
 <script src="Components/Complain.js"></script>
 
 </head>
-<body style="background-image:url(https://wallpaperaccess.com/full/5227230.png)">
+<body style="background-image:url(https://www.color-hex.com/palettes/37446.png)">
 
  <div class="container">
  <div class="row">
@@ -27,13 +27,13 @@
 	<input id="perName" name="perName" type="text" class="form-control form-control-sm">
 	<br>  
 	Customer Account Number:
-	<input id="cAccNo" name="cAccNo" type="text" class="form-control form-control-sm">
+	<input id="cAccNo" name="cAccNo" type="number" class="form-control form-control-sm">
 	<br> 
 	Complain Area:
 	<input id="cArea" name="cArea" type="text" class="form-control form-control-sm">
 	<br> 
     Phone Number:
-    <input id="cPhone" name="cPhone" type="text" class="form-control form-control-sm">
+    <input id="cPhone" name="cPhone" type="number" class="form-control form-control-sm">
 	<br>
 	Complain:
     <input id="comp" name="comp" type="text" class="form-control form-control-sm">

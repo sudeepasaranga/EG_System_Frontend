@@ -24,10 +24,10 @@
 <h1><b>Complain Management</b></h1>
 <form id="formComplains" name="formComplains" method="post" enctype="multipart/form-data">
     Customer Name:
-	<input id="perName" name="perName" type="text" class="form-control form-control-sm">
+	<input id="perName" name="perName" type="number" class="form-control form-control-sm">
 	<br>  
 	Customer Account Number:
-	<input id="cAccNo" name="cAccNo" type="number" class="form-control form-control-sm">
+	<input id="cAccNo" name="cAccNo" type="text" class="form-control form-control-sm">
 	<br> 
 	Complain Area:
 	<input id="cArea" name="cArea" type="text" class="form-control form-control-sm">
