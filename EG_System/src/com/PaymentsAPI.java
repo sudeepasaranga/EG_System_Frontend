@@ -11,7 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.Part;
+// import javax.servlet.http.Part;
 
 /**
  * Servlet implementation class PaymentsAPI
@@ -34,6 +34,7 @@ public class PaymentsAPI extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
+// 	view all payments 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
@@ -42,6 +43,7 @@ public class PaymentsAPI extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
+// 	insert payment 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, NumberFormatException {
 		String dateOfpay = request.getParameter("dateOfpay");
 		String payMethod = request.getParameter("payMethod");
@@ -50,8 +52,8 @@ public class PaymentsAPI extends HttpServlet {
 		String cvv = request.getParameter("cvv");
 		String expDate = request.getParameter("expDate");
 		String totamount = request.getParameter("totamount");
-//		int year = Integer.parseInt(request.getParameter("year"));
-//		Part part = request.getPart("uploadFile");
+
+
 
 		String output = payment.insertPayment(dateOfpay,payMethod,cardHolder,cardNo,cvv,expDate,totamount);
 		response.getWriter().write(output);
@@ -60,6 +62,7 @@ public class PaymentsAPI extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPut(HttpServletRequest, HttpServletResponse)
 	 */
+// 	update payment 
 	protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		int paymentId = Integer.parseInt(request.getParameter("hidPaymentIdSave"));
@@ -78,6 +81,7 @@ public class PaymentsAPI extends HttpServlet {
 	/**
 	 * @see HttpServlet#doDelete(HttpServletRequest, HttpServletResponse)
 	 */
+//         delete payment 
 	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Map paras = getParasMap(request);
 		int paymentId = Integer.parseInt(paras.get("paymentID").toString());
