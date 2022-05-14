@@ -99,7 +99,6 @@ public class PaymentsAPI extends HttpServlet {
 				 String[] params = queryString.split("&");
 				 for (String param : params)
 				 { 
-					 
 					 String[] p = param.split("=");
 					 map.put(p[0], p[1]);
 				}
