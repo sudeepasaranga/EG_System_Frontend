@@ -88,37 +88,37 @@ function validatePaymentForm()
 	// date of payment
 	if ($("#dateOfpay").val().trim() == "")
 	{
-		return "Insert Date Of Pay.";
+		return "Please fill Date Of Payment field.";
 	}
 	// payment method
 	if ($("#payMethod").val().trim() == "")
 	{
-		return "Payment Method.";
+		return "Please fill Payment Method field.";
 	}
 	// cardHolder name
 	if ($("#cardHolder").val().trim() == "")
 	{
-		return "CardHolder Name.";
+		return "Please fill CardHolder Name field.";
 	}
 	// card number
 	if ($("#cardNo").val().trim() == "")
 	{
-		return "Card Number.";
+		return "Please fill Card Number field.";
 	}
 	// 
 	if ($("#cvv").val().trim() == "")
 	{
-		return "CVV.";
+		return "Please fill CVV field.";
 	}
 	// 
 	if ($("#expDate").val().trim() == "")
 	{
-		return "Expiry Date.";
+		return "Please fill Expiry Date field.";
 	}
 	// 
 	if ($("#totamount").val().trim() == "")
 	{
-		return "Total Amount.";
+		return "Please fill Total Amount field.";
 	}
 	
 	
