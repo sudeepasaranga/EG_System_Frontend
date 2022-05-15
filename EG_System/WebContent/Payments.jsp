@@ -8,13 +8,14 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Payment Service</title>
+	
 <link rel="stylesheet" href="Views/bootstrap.min.css">
 <link rel="stylesheet" href="Views/payments.css">
 <script src="Components/jquery-3.2.1.js"></script>
 <script src="Components/payments.js"></script>
 
 </head>
-<body style="background-image:url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-white-lines-pink-background-image_269454.jpg">
+<body style="background-image:url(https://images.pexels.com/photos/4862892/pexels-photo-4862892.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
 <div class="container">
  <div class="row">
  <div class="col-6">
