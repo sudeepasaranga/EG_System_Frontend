@@ -14,7 +14,7 @@
 <script src="Components/payments.js"></script>
 
 </head>
-<body style="background-image:url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-white-lines-pink-background-image_269454.jpg">
+<body>
 <div class="container">
  <div class="row">
  <div class="col-6">
